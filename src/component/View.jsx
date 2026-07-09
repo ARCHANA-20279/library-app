@@ -5,6 +5,8 @@ function View() {
   return (
     <div>
         <Navigation />
+        <div classNameName="container" style={{padding:10,margin:50}}>
+        <h1 style={{ color: "blue",marginBottom:50}}>Details a Book</h1>
         <div className="container">
             <div className="row">
                 <div className="col col-sm-12 col-md-12 col-xl-12 col-xxl-12">
@@ -88,6 +90,7 @@ function View() {
             </div>
         </div>
 
+    </div>
     </div>
   )
 }

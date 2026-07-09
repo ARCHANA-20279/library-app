@@ -5,6 +5,8 @@ const Add = () => {
   return (
     <div>
         <Navigation />
+        <div classNameName="container" style={{padding:10,margin:50}}>
+        <h1 style={{color:"blue",marginBottom:50}}>Add New Book</h1>
         <div className="container">
             <div className="row">
                 <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
@@ -23,8 +25,8 @@ const Add = () => {
                                 <input type="text" className="form-control" />
                             </div>
                             <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                                <label htmlFor="" className="form-label">category</label>
-                                <input type="text" className="fom-control" />
+                               <label htmlFor="" className="form-label">Category</label>
+                               <input type="text" className="form-control" />
                             </div>
                             <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                                 <label htmlFor="" className="form-label">edition</label>
@@ -46,7 +48,7 @@ const Add = () => {
                                 <label htmlFor="" className="form-label">shelf location</label>
                                 <input type="text" className="form-control" />
                             </div>
-                            <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                            <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                                 <button className="btn btn-dark">submit</button>
                             </div>
                             <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6"></div>
@@ -55,6 +57,7 @@ const Add = () => {
                 </div>
             </div>
         </div>
+    </div>
     </div>
   )
 }
